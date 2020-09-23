@@ -1,0 +1,368 @@
+/* halaman login */
+.container-fluid {
+    background-color: #6379F4;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.column .logo {
+    position: absolute;
+    left: 170px;
+    top: 30px;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.vector1 {
+    position: absolute;
+    left: -0.1%;
+    top: 8.08%;
+    /* bottom: 36.35%; */
+}
+
+.vector2 {
+    position: absolute;
+    left: -0.1%;
+    top: 8.08%;
+    /* height: 50%; */
+    bottom: 36.35%;
+}
+
+.phone3 {
+    position: relative;
+    left: 115px;
+    top: 60px;
+}
+
+.app {
+    position: relative;
+    font-weight: bold;
+    top: 5%;
+    left: 10.42%;
+    right: 62.99%;
+}
+
+.zwallet-is {
+    position: relative;
+    top: 6%;
+    left: 10.42%;
+    right: 62.99%;
+}
+
+.start {
+    left: 59.51%;
+    right: 13.82%;
+    top: 12.59%;
+    bottom: 75.65%;
+}
+
+input[type=email] {
+    background-image: url(../asset/picture/mail.png);
+    background-position: 10px 4px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    /*padding: 20px 20px 12px 40px;*/
+}
+
+input[type=password] {
+    background-image: url(../asset/picture/lock.png);
+    background-position: 10px 6px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 10px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 3px solid #ccc;
+    /*border-radius: 4px;*/
+    box-sizing: border-box;
+}
+
+/* End halaman login */
+
+/*halaman home*/
+nav {
+    border-radius: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+.navbar-brand {
+    color: #6379F4;
+}
+
+.dashboardd {
+    color: #6379F4;
+}
+
+.card {
+    background: #6379F4;
+    border-radius: 20px;
+}
+
+.col1 {
+    border-radius: 25px;
+}
+
+.col2 {
+    border-radius: 25px;
+
+    background-color: #6379F4;
+}
+
+.col3 {
+    border-radius: 25px;
+
+}
+
+.transfer {
+    /*width: 28px;
+        height: 28px;*/
+    left: 1126px;
+    top: 224px;
+}
+
+.balance-button {
+    background-color: #f8f9fa45;
+    width: 160px;
+    height: 50px;
+
+}
+
+.balance-button:hover,
+.balance-button:active {
+    background-color: #00088017 !important;
+
+}
+
+.seeAll {
+    color: #6379F4;
+}
+
+
+/*history*/
+nav {
+    border-radius: 25px;
+}
+
+.card {
+    background: #6379F4;
+    border-radius: 20px;
+}
+
+.col1 {
+    border-radius: 25px;
+}
+
+.col2 {
+    border-radius: 25px;
+}
+
+.dashboard {
+    color: black;
+}
+
+.tranferh {
+    color: black;
+}
+
+.tranferr {
+    background-color: #6379F4;
+}
+
+.logout {
+    color: black;
+}
+
+/*.Rp{
+        text-align: right;
+      }*/
+/*end history*/
+
+/*search*/
+nav {
+    border-radius: 25px;
+}
+
+.card {
+    background: #6379F4;
+    border-radius: 20px;
+}
+
+.col1 {
+    border-radius: 25px;
+}
+
+.col2 {
+    border-radius: 25px;
+}
+
+.dasboard {
+    color: black;
+}
+
+.logout {
+    color: black
+}
+
+
+.form-inline .samuel {
+    color: black;
+}
+
+/*end search*/
+
+
+/*input amount*/
+nav {
+    border-radius: 25px;
+}
+
+.card {
+    background: #6379F4;
+    border-radius: 20px;
+}
+
+.col1 {
+    border-radius: 25px;
+}
+
+.col2 {
+    border-radius: 25px;
+}
+
+.btn {
+    border-radius: 12px;
+}
+
+input[type=text] {
+    /*background-image: url(../asset/picture/mail.png);*/
+    background-position: 10px 4px;
+    /*text-align: center;*/
+    background-repeat: no-repeat;
+    background-size: 20px;
+    /*padding: 20px 20px 12px 40px;*/
+}
+
+input[type=text] {
+    width: 20%;
+    text-align: center;
+    padding: 10px 40px;
+    margin: 8px 0;
+    /*display: inline-block;*/
+    border: none;
+    /*border-bottom: 3px solid #ccc;*/
+    /*border-radius: 4px;*/
+    box-sizing: border-box;
+}
+
+/*frame1*/
+nav {
+    border-radius: 25px;
+}
+
+.card {
+    background: #6379F4;
+    border-radius: 20px;
+}
+
+.col1 {
+    border-radius: 25px;
+}
+
+.col2 {
+    border-radius: 25px;
+}
+
+.active-purple input.form-control[type=text] {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+}
+
+.btn {
+    border-radius: 12px;
+}
+
+/*end frame*/
+
+
+/*confirmation*/
+
+nav {
+    border-radius: 25px;
+}
+
+.card {
+    background: #6379F4;
+    border-radius: 20px;
+}
+
+.col1 {
+    border-radius: 25px;
+}
+
+.col2 {
+    border-radius: 25px;
+}
+
+.active-purple input.form-control[type=text] {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+}
+
+.btn {
+    border-radius: 12px;
+}
+
+.modal {
+    border-radius: 25px;
+}
+
+.modal-body {
+    box-sizing: border-box;
+}
+
+/*end confirmation*/
+
+/*success*/
+nav {
+    border-radius: 25px;
+}
+
+.card {
+    background: #6379F4;
+    border-radius: 20px;
+}
+
+.col1 {
+    border-radius: 25px;
+}
+
+.col2 {
+    border-radius: 25px;
+}
+
+.active-purple input.form-control[type=text] {
+    border-bottom: 1px solid grey;
+    box-shadow: 0 1px 0 0 grey;
+}
+
+.btn {
+    border-radius: 12px;
+}
+
+.modal {
+    border-radius: 25px;
+}
+
+.modal-body {
+    box-sizing: border-box;
+}
+
+/*end suces*/

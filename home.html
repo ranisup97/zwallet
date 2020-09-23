@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- font nurito sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js">
+    </script>
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar shadow p-3 mb-4 bg-white">
+        <div class="container">
+            <a class="navbar-brand">Zwallet</a>
+            <form class="form-inline">
+                <img class="mr-3" src="asset/picture/robert.svg">
+
+                <p class="pt-1"><b>Robert Chandler</b><br>
+                    <small>+62 8139 3877 7946 </small></p>
+                <img class="ml-4" src="asset/icons/bell.svg">
+            </form>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col1 col-md-2 mt-1 shadow p-3 mb-1 bg-white" style="background-color: #FFFFFF;">
+                <p style="color: #6379F4"><a class="dashboardd mt-4" href="#"><img class="mr-3"
+                            src="asset/icons/grid1.png">Dashboard</a></p>
+                <p class="mt-5"><img class="mr-3" src="asset/icons/arrow-up1.svg">Transfer</p>
+                <p class="mt-5"><img class="mr-3" src="asset/icons/plus.png">Top Up</p>
+                <p class="mt-5 mb-5"><img class="mr-3" src="asset/icons/user.png">Profile</p>
+                <p class="mt-5 mb-5"><img class="mr-3" src="asset/icons/log-out.png">Logout</p>
+            </div>
+
+            <div class="col col-md-9 ml-3 ">
+                <div class="row col2 p-3 mt-1 mb-5 shadow mb-1 pb-5">
+                    <div class="col2 col-sm-12 col-md-9 flex-column text-white">
+                        <!-- <div class="card text-white"> -->
+                        <!-- <div class="card-body"> -->
+                        <p class=""><small>Balance</small></p>
+                        <h3 class="card-text">Rp120.000</h3>
+                        <p><small>+62 813-9387-7946</small></p>
+                        <!-- </div> -->
+                        <!-- </div> -->
+                    </div>
+                    <div class="col2 col-sm-12 col-md-3 flex-column">
+
+                        <button type="button" class="btn btn-outline-light btn-md btn-block balance-button "><img
+                                width="28" height="28" class="transfer"
+                                src="asset/picture/arrow-upwhite.svg">Transfer</button>
+                        <button type="button" class="btn btn-outline-light btn-md btn-block balance-button"><img
+                                width="28" height="28" src="asset/picture/pluswhite.svg">Top Up</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-sm-12 col-md-6 flex-column ">
+                        <div class="col3 pt-3 mb-5 bg-white shadow pb-2">
+                            <div class="row">
+                                <div class="mb-5 col flex-column text-dark ml-3">
+                                    <!-- <div class="card text-white"> -->
+                                    <!-- <div class="card-body"> -->
+                                    <img src="asset/picture/arrow-upgreen.svg">
+                                    <p class=""><small>Income</small></p>
+                                    <h5 class="card-text">Rp2.120.000</h5>
+
+                                </div>
+                                <div class="col flex-column text-dark ml-3">
+                                    <img src="asset/picture/arrow-upred.svg">
+                                    <p class=""><small>Expense</small></p>
+                                    <h5 class="card-text">Rp1.560.000</h5>
+                                </div>
+                                <canvas id="myChart" width="300" height="200"></canvas>
+                            </div>
+                        </div>
+                        <!-- </div> -->
+                        <!-- </div> -->
+                    </div>
+                    <div class="col3 col-sm-12 col-md-6 flex-column pt-3 mb-5 bg-white shadow pb-2">
+                        <!-- <div class="col3 pt-3 mb-5 bg-white shadow pb-2"> -->
+                        <div class="row">
+                            <div class="mb-1 col flex-column text-dark">
+                                <p><b>Transaction History</b></p>
+                            </div>
+                            <div class="col flex-column text-dark ml-3">
+                                <p class="seeAll text-right mr-3"><a href="History.html"><small>See All</small></a></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class=" mb-1 col flex-column text-dark">
+                                <form class="form-inline">
+                                    <img class="mr-3" src="asset/container/samuel.png">
+                                    <p class="pt-1">Samuel Sushi<br>
+                                        <small class="text-muted">Transfer </small></p><br>
+                                </form>
+                            </div>
+                            <div class="col flex-column text-dark ml-3">
+                                <p class="text-right w-100" style="color: #1EC15F;">+Rp50.000</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class=" mb-1 col flex-column text-dark">
+                                <form class="form-inline mt-3 ml-3">
+                                    <img class="mr-3  pr-4" src="asset/container/netflix.png">
+                                    <p class="pt-1">Netflix<br>
+                                        <small class="text-muted">Subscription</small></p><br>
+                                </form>
+                            </div>
+                            <div class="col flex-column text-dark ml-3">
+                                <p class="text-right w-100" style="color: #FF5B37;">-Rp149.000</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class=" mb-1 col flex-column text-dark">
+                                <form class="form-inline">
+                                    <img class="mr-3" src="asset/container/Christine.png">
+                                    <p class="pt-1">Christine Mar..<br>
+                                        <small class="text-muted">Transfer</small></p><br>
+                                </form>
+                            </div>
+
+                            <div class="col flex-column text-dark ml-3">
+                                <p class="text-right w-100" style="color: #1EC15F;">+Rp150.000</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class=" mb-1 col flex-column text-dark">
+                                <form class="form-inline">
+                                    <img class="mr-3 pl-2 pr-2" src="asset/container/adobe.png">
+                                    <p class="pt-1"><b>Adobe Inc.</b><br>
+                                        <small class="text-muted">Subscription</small></p><br>
+                                </form>
+                            </div>
+
+                            <div class="col flex-column text-dark ml-3">
+                                <p class="text-right w-100" style="color: #FF5B37;">-Rp249.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="text-white fix-bottom">
+        <div class="container-fluid mt-4" style="background-color: #6379F4">
+            <!-- pt 3 yaitu dikasi padding top 3 agar tidak teralu menempel huru dengan batasnya -->
+            <div class="row pt-2">
+                <div class="col-md-6">
+                    <p><small class="ml-5">2020 Zwallet. All right reserved.</small></p>
+
+                </div>
+                <div class="col-md-6">
+                    <p><small class="mr-5">+62 5637 8882 9901</small><small class="ml-5">contact@zwallet.com</small></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Sat', 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+                datasets: [{
+                    label: 'Balance',
+                    data: [100, 30, 50, 75, 60, 90, 55],
+                    barPercentage: .5,
+                    backgroundColor: [
+                        '#6379f4',
+                        '#6379f4',
+                        '#9DA6B5',
+                        '#9DA6B5',
+                        '#9DA6B5',
+                        '#6379f4',
+                        '#9DA6B5'
+                    ],
+                    // borderColor: [
+                    //     'rgba(255, 99, 132, 1)',
+                    //     'rgba(54, 162, 235, 1)',
+                    //     'rgba(255, 206, 86, 1)',
+                    //     'rgba(75, 192, 192, 1)',
+                    //     'rgba(153, 102, 255, 1)',
+                    //     'rgba(255, 159, 64, 1)'
+                    // ],
+                    // borderWidth: 1
+                }]
+            },
+            options: {
+                radius: 200,
+                legend: {
+                    display: false,
+                    labels: {
+                        fontColor: 'rgb(255,99,132)'
+                    }
+                },
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            display: false
+                        },
+                        gridLines: {
+                            display: false
+                            // offsetGridLines: tue
+                        }
+                    }],
+                    xAxes: [{
+                        gridLines: {
+                            display: false
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
