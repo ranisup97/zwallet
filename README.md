@@ -10,9 +10,6 @@ aplikasi yang dibuat hanya berupa frontend saja yaitu menggunakan HTML, CSS dan 
 4. Masukkan nominal transfer.
 5. Masukkan PIN, Jika berhasil kamu akan mendapatkan pesan konfirmasi pengiriman dana.
 
-**HTML** memungkinkan user untuk mengorganisir dan memformat dokumen, sama seperti Microsoft Word.
-Ketika bekerja dengan HTML, Anda menggunakan struktur kode yang sederhana (tag dan attribute) untuk mark up halaman website
-**CSS** digunakan untuk mengontrol format tampilan sebuah halaman web
-CSS dibuat untuk memisahkan konten utama dengan tampilan dokumen yang meliputi layout, warna , font, dll
-**Bootsrap** adalah sebuah library framework CSS yang telah dibuat khusus uintuk mengembangkan front end sebuah website.
-bootsrap digunakan agar website lebih responsive
+* **HTML** memungkinkan user untuk mengorganisir dan memformat dokumen, sama seperti Microsoft Word. Ketika bekerja dengan HTML, Anda menggunakan struktur kode yang sederhana (tag dan attribute) untuk mark up halaman website
+* **CSS** digunakan untuk mengontrol format tampilan sebuah halaman web CSS dibuat untuk memisahkan konten utama dengan tampilan dokumen yang meliputi layout, warna , font, dll
+* **Bootsrap** adalah sebuah library framework CSS yang telah dibuat khusus uintuk mengembangkan front end sebuah website. Bootsrap digunakan agar website lebih responsive
